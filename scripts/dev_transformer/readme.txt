@@ -1,0 +1,1 @@
+The folder has a config for 2 layer DiT for debugging purposes

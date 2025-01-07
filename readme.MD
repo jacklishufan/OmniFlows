@@ -39,6 +39,10 @@ imgs = pipeline("portrait of a cyberpunk girl with neon tattoos and a visor,star
 
 For more examples of Any-to-Any Generation, checkout `scripts/Demo.ipynb`
 
+## Training 
+
+See [scripts/training.md](scripts/training.md). We also release a filtered synthethic dataset containing text-audio-image triplets at [Huggingface](https://huggingface.co/datasets/jacklishufan/soundnet-flux-caption/tree/main)
+
 
 ## Citation
 

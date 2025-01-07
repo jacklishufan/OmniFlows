@@ -1,0 +1,49 @@
+# Example config
+datasets:
+  laion:
+    #CSV contains following columns:
+    #caption,img_file
+    #an image of dog,/abs/path/to/img.jpg
+    instance_data_root: annotations/laion.csv
+    dataset: text2img
+    name: laion
+    task_weight: [0.2,0.8]
+
+  soundnet:
+    #CSV contains following columns:
+    #img_path,audio_path
+    #/abs/path/to/img.jpg,/abs/path/to/aud.mp3
+    instance_data_root: annotations/soundnet_img_aud_mp3.csv
+    dataset: img2aud
+    name: soundnet
+    task_weight: [1.0,0.0]
+
+
+  audioset_v3:
+    #CSV contains following columns:
+    #caption,audio_path
+    #Music is playing and a frog croaks,/abs/path/to/aud.mp3
+    instance_data_root: annotations/audioset_mp3_v3.csv
+    dataset: text2aud
+    name: audioset_v3
+    task_weight: [0.6,0.4]
+
+  any2anyflux:
+    #CSV contains following columns:
+    #caption2,caption,img_path,audio_path
+    #A person's face contorted in a howling expression,A person makes a howling sound,/abs/path/to/img.jpg,/abs/path/to/aud.mp3
+    #caption2 column contains visual captions,caption column contains audio captions
+    #For dataset with only one caption (e.g. Video dataset), we can repeat the same caption in two columns
+    instance_data_root:  annotations/flux-v3-soundnet.csv
+    dataset: any2any
+    name: any2any_flux
+
+
+  
+
+weights:
+  # Sample weights of datasets
+  laion: 800 
+  soundnet: 100
+  any2anyflux: 1250
+  audioset_v3: 1000
