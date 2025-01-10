@@ -22,6 +22,10 @@ pip install -e .
 
 Checkpoint (v0.5) is available on [Huggingface.](https://huggingface.co/jacklishufan/OmniFlow-v0.5/tree/main)
 
+
+Checkpoint (v0.9) is available on [Huggingface.](https://huggingface.co/jacklishufan/OmniFlow-v0.9/tree/main). This checkpoint is trained on additional data focusing on audio-visual correspondence. 
+
+
 [Coming Soon: We are training a stronger model based on MMDiT-X proposed in SDv3.5]
 
 
