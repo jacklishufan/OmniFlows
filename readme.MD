@@ -1,4 +1,4 @@
-#[CVPR 2025]OmniFlow: Any-to-Any Generation with Multi-Modal Rectified Flows
+# [CVPR 2025]OmniFlow: Any-to-Any Generation with Multi-Modal Rectified Flows
 
 <p align="center">
     <img src="assets/teaser.png", width=60%> <br>
