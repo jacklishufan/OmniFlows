@@ -4,6 +4,10 @@
     <img src="assets/teaser.png", width=60%> <br>
 </p>
 
+<p align="center">
+  <img src="assets/demo.gif", width=80%> <br>
+</p>
+
 
 This repository contains the official code and checkpoints used in the paper "[OmniFlow: Any-to-Any Generation with Multi-Modal Rectified Flows](https://arxiv.org/abs/2412.01169)"
 
