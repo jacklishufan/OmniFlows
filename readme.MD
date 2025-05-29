@@ -1,4 +1,4 @@
-# OmniFlow: Any-to-Any Generation with Multi-Modal Rectified Flows
+# [CVPR 2025]OmniFlow: Any-to-Any Generation with Multi-Modal Rectified Flows
 
 <p align="center">
     <img src="assets/teaser.png", width=60%> <br>
@@ -28,10 +28,6 @@ Checkpoint (v0.5) is available on [Huggingface.](https://huggingface.co/jacklish
 
 
 Checkpoint (v0.9) is available on [Huggingface.](https://huggingface.co/jacklishufan/OmniFlow-v0.9/tree/main). This checkpoint is trained on additional data focusing on audio-visual correspondence. 
-
-
-[Coming Soon: We are training a stronger model based on MMDiT-X proposed in SDv3.5]
-
 
 ## Inference 
 
