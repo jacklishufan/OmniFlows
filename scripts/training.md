@@ -42,8 +42,8 @@ A person's face contorted in a howling expression,A person makes a howling sound
 ```
 
 `caption2` column contains visual captions,`caption` column contains audio captions. For dataset with only one caption (e.g. Video dataset), we can repeat the same caption in two columns
-  
-Finally, you need to prepare a dataset config which contains all the csv files of different dataset and the sampling weight of each dataset during the training. An example can be found at [config/data.yml](config/data.yml)
+  /data0/jacklishufan/OmniFlow-public/scripts/training.md
+Finally, you need to prepare a dataset config which contains all the csv files of different dataset and the sampling weight of each dataset during the training. An example can be found at [config/data.yml](../config/data.yml)
 
 ### Launch Training
 
