@@ -53,10 +53,12 @@ See [scripts/training.md](scripts/training.md). We also release a filtered synth
 If you find OmniFlow useful in your research, please consider cite 
 
 ```
-@article{li2024omniflow,
-  title={OmniFlow: Any-to-Any Generation with Multi-Modal Rectified Flows},
-  author={Li, Shufan and Kallidromitis, Konstantinos and Gokul, Akash and Liao, Zichun and Kato, Yusuke and Kozuka, Kazuki and Grover, Aditya},
-  journal={arXiv preprint arXiv:2412.01169},
-  year={2024}
+@InProceedings{Li_2025_CVPR,
+    author    = {Li, Shufan and Kallidromitis, Konstantinos and Gokul, Akash and Liao, Zichun and Kato, Yusuke and Kozuka, Kazuki and Grover, Aditya},
+    title     = {OmniFlow: Any-to-Any Generation with Multi-Modal Rectified Flows},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {13178-13188}
 }
 ```
